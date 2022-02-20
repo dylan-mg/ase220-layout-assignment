@@ -1,0 +1,17 @@
+﻿body {
+}
+.sideBar{
+    float:left;
+    position:fixed;
+    padding-top: 270px;
+    width: 270px;
+    border: 2px solid black;
+    
+}
+.nav-inputGroup{
+    padding: 5px;
+}
+.nav-menu-button {
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
