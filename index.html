@@ -32,16 +32,18 @@
 
     <h1 class="title">Title</h1>
 
-    <nav class="sideBar">
-        this needs to be floated to the left of the content and made sticky
+    <div class="sideBar">
         <form action="get">
-            <div class="nav-inputGroup" id="searchGroup">
-                <label for="searchMan" class="nav-inputLabel"></label>
-                <input type="text" name="searchMan" id="searchMan">
+            <h2 class="sideBar-title">Filter Menu</h2>
+            <hr>
+            <div class="sideBar-inputGroup" id="searchGroup">
+                <label for="searchMan" class="sideBar-inputLabel">Label</label>
+                <input type="text" name="searchMan" id="searchMan" placeholder="text field">
             </div>
-            <div class="nav-inputGroup" id="selectGroup1">
-                <label for="selectMan1" class="nav-inputLabel"></label>
-                <select class="nav-select" id="selectMan1" name="selectMan1">
+
+            <div class="sideBar-inputGroup" id="selectGroup1">
+                <label for="selectMan1" class="sideBar-inputLabel"></label>
+                <select class="sideBar-select" id="selectMan1" name="selectMan1">
                     <option value="1">Option One</option>
                     <option value="2">Option Two</option>
                     <option value="3">Option Three</option>
@@ -50,9 +52,9 @@
                 </select>
             </div>
 
-            <div class="nav-inputGroup" id="selectGroup2">
-                <label for="selectMan2" class="nav-inputLabel"></label>
-                <select class="nav-select" id="selectMan2" name="selectMan2">
+            <div class="sideBar-inputGroup" id="selectGroup2">
+                <label for="selectMan2" class="sideBar-inputLabel"></label>
+                <select class="sideBar-select" id="selectMan2" name="selectMan2">
                     <option value="1">Option Ein</option>
                     <option value="2">Option Zwei</option>
                     <option value="3">Option Drei</option>
@@ -61,21 +63,21 @@
                 </select>
             </div>
 
-            <div class="nav-inputGroup" id="radioGroup">
-                <div id="navRadioGroup">
+            <div class="sideBar-inputGroup" id="radioGroup">
+                <div id="sideBar-RadioGroup">
                     <!--row of radios-->
                     <label for="radio-1">radio 1</label>
-                    <input type="radio" name="radio-1" id="radio-1" class="nav-input-radio">
+                    <input type="radio" name="radio-1" id="radio-1" class="sideBar-input-radio">
 
                     <label for="radio-2">radio 2</label>
-                    <input type="radio" name="radio-1" id="radio-2" class="nav-input-radio">
+                    <input type="radio" name="radio-1" id="radio-2" class="sideBar-input-radio">
                 </div>
             </div>
 
-            <button id="nav-submit" class="nav-menu-button" type="submit">Submit</button>
-            <button type="reset" class="nav-menu-button">Clear</button>
+            <button id="sideBar-submit" class="sideBar-menu-button" type="submit">Submit</button>
+            <button type="reset" class="sideBar-menu-button">Clear</button>
         </form>
-    </nav>
+    </div>
     <main>
         <!--arranged in 3*4 matrix on large screen (we'll work on smaller screens later)-->
         <card>
