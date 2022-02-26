@@ -78,10 +78,13 @@ header {
 
 .sideBar {
     float: left;
-    position: -webkit-sticky;
     position: sticky;
-    top: 50px;
+    top: 70px;
+    padding-top: 5px;
+    width: 270px;
+    border-right: 1px solid #d6cdee;
 }
+
 
 .sideBar-title {
     color: #2f234f;
